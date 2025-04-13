@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NBN",
+    " P ",
+    "   "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_block"
+    },
+    "B": {
+      "item": "minecraft:deepslate"
+    },
+    "P": {
+      "item": "minecraft:diamond_pickaxe"
+    }
+  },
+  "result": {
+    "item": "dd3k:deepslate_destroyer",
+    "count": 1
+  }
+}

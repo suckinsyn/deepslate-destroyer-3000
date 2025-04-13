@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "dd3k",
+	"version": "${version}",
+	"name": "Deepslate Destroyer 3000",
+	"description": "Adds Deepslate Destroyer 3000 to the game.",
+	"authors": [
+		"zsvan"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/dd3k/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.zsvan.dd3k.DeepslateDestroyer3000"
+		],
+		"client": [
+			"net.zsvan.dd3k.DeepslateDestroyer3000Client"
+		]
+	},
+	"mixins": [
+		"dd3k.mixins.json",
+		{
+			"config": "dd3k.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
